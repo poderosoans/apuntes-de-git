@@ -8,3 +8,6 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Si no hemos hecho cambios desde la últimoa confirmación entonces la instantánea o el commit  lucirá exactamente igual y lo único que cambiaremos será el mensaje del commit.
+
+### git commit -a -m  "mensaje del commit"
+Con este comando podemos saltar el área de preparación.
