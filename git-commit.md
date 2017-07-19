@@ -1,5 +1,7 @@
-### git commit --amend
+# git commit
+Confirma los cambios agregandolos al directorio git (historial de comits).
 
+## git commit --amend
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -9,5 +11,5 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Si no hemos hecho cambios desde la últimoa confirmación entonces la instantánea o el commit  lucirá exactamente igual y lo único que cambiaremos será el mensaje del commit.
 
-### git commit -a -m  "mensaje del commit"
+## git commit -a -m  "mensaje del commit"
 Con este comando podemos saltar el área de preparación.
