@@ -24,5 +24,3 @@ git config --list
 ## Aportees desde otra cuenta
 Este texto fue aportado desde la cuenta poderosoans
 
-## Varios repositorios remotos
-Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos.
