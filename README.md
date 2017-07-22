@@ -28,4 +28,7 @@ Dejamos el passphrase vacío y damos enter.
 Cuando nos pida la ruta escribimos `/c/llaves-ssh/github_rsa`.
 3. Iniciamos ssh-agent en background ejecutando el comando `eval "$(ssh-agent -s)"`.
 4. Agregamos la llave ssh generada a ssh-agent ejecutando el comando `ssh-add /c/llaves-ssh/github_rsa`.
-5. Desde ahora podemos hacer pull y push sin que Github nos esté piediendo los datos de acceso.
+5. Usar el comando `cat /c/llaves-ssh/github_rsa.pub` con este comcando vemos el contenido del archivo, copiamos todo el texto que nos muestra.
+6. Ir a las configuraciones de nuestro perfil de Github y agregar una nueva llave SSH con el contenido que hemos copiado de `github_rsa.pub`.
+
+Desde ahora podemos hacer pull y push sin que Github nos esté piediendo los datos de acceso.
