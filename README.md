@@ -21,6 +21,3 @@ git config --global core.editor nano
 git config --list
 ```
 
-## Aportees desde otra cuenta
-Este texto fue aportado desde la cuenta poderosoans
-
